@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chennai Super Kings - IPL Team Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#schedule">Match Schedule</a></li>
+            <li><a href="#players">Players</a></li>
+            <li><a href="#poll">Fan Poll</a></li>
+        </ul>
+    </nav>
+
+    <!-- Homepage Section -->
+    <section id="home">
+        <h1>Welcome to Chennai Super Kings Official Website!</h1>
+        <p>Stay updated with the latest news, match schedules, and player stats. Show your support for CSK!</p>
+    </section>
+
+    <!-- Match Schedule Section -->
+    <section id="schedule">
+        <h2>Upcoming Matches</h2>
+        <table>
+            <tr>
+                <th>Match</th>
+                <th>Date</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>CSK vs Mumbai Indians</td>
+                <td>1st May 2025</td>
+                <td>7:30 PM</td>
+            </tr>
+            <tr>
+                <td>CSK vs Royal Challengers Bangalore</td>
+                <td>3rd May 2025</td>
+                <td>7:30 PM</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Player Profiles Section -->
+    <section id="players">
+        <h2>Player Profiles</h2>
+        <div class="player">
+            <img src="ms.jpg" alt="MS Dhoni">
+            <p><strong>MS Dhoni</strong></p>
+            <p>Position: Captain (Wicketkeeper-Batsman)</p>
+            <p>Matches: 204 | Runs: 5000+ | Wickets: 100+</p>
+        </div>
+        <div class="player">
+            <img src="ra.jpeg" alt="Ravindra Jadeja">
+            <p><strong>Ravindra Jadeja</strong></p>
+            <p>Position: All-rounder</p>
+            <p>Matches: 150 | Wickets: 200+ | Runs: 2000+</p>
+        </div>
+        <div class="player">    
+            <img src="gau.jpeg"Ruturaj Gaikwad">
+            <p><strong>Ruturaj Gaikwad</strong></p>
+            <p>Position: Batsman</p>
+            <p>Matches: 40 | Runs: 1500+ | Strike Rate: 130+</p>
+        </div>
+        <div class="player">
+            <img src="ali.jpeg" alt="Moeen Ali">
+            <p><strong>Moeen Ali</strong></p>
+            <p>Position: All-rounder</p>
+            <p>Matches: 50+ | Runs: 1000+ | Wickets: 40+</p>
+        </div>
+        <div class="player">
+            <img src="char.jpeg" alt="Deepak Chahar">
+            <p><strong>Deepak Chahar</strong></p>
+            <p>Position: Bowler</p>
+            <p>Matches: 50 | Wickets: 70+ | Economy Rate: 8.5</p>
+        </div>
+    </section>
+
+    <!-- Fan Poll Section -->
+    <section id="poll">
+        <h2>Fan Poll: Who's your favorite CSK player?</h2>
+        <form id="pollForm">
+            <label for="player">Choose a player:</label>
+            <select id="player" name="player">
+                <option value="dhoni">MS Dhoni</option>
+                <option value="jadeja">Ravindra Jadeja</option>
+                <option value="ruturaj">Ruturaj Gaikwad</option>
+                <option value="moeen">Moeen Ali</option>
+                <option value="chahar">Deepak Chahar</option>
+                <p style="color: aliceblue;">Created by Ebin</p>
+            </select>
+            <button type="submit">Vote</button>
+        </form>
+        <p id="pollResult"></p>
+    </section>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

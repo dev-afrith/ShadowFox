@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #000000;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #ff9f00; /* CSK Yellow */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effects for Navigation Links */
+nav ul li a:hover {
+    color: #0f4b60; /* CSK Blue */
+    text-shadow: 0 0 10px #0f4b60, 0 0 20px #0f4b60, 0 0 30px #0f4b60; /* Glow effect */
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #ffcc00; /* CSK Yellow */
+}
+
+#home h1 {
+    font-size: 3em;
+    color: #0f4b60; /* CSK Blue */
+}
+
+/* Match Schedule Section */
+#schedule {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#schedule table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#schedule th, #schedule td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#schedule th {
+    background-color: #ff9f00; /* CSK Yellow */
+    color: white;
+}
+
+/* Player Profiles Section */
+#players {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.player {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.player:hover {
+    transform: scale(1.1); /* Grow the player profile */
+}
+
+.player img {
+    width: 100%;
+    height: auto;
+    border: radius 70px;
+    transition: transform 0.3s ease;
+}
+
+.player:hover img {
+    transform: scale(1.1); /* Enlarge the player image */
+}
+
+.player p {
+    margin-top: 10px;
+}
+
+/* Fan Poll Section */
+#poll {
+    padding: 40px 20px;
+    background-color: #0f4b60; /* CSK Blue */
+    color: white;
+    text-align: center;
+}
+
+#poll select, #poll button {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+#pollResult {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Footer Section (Credits) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
