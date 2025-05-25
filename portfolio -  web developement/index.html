@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <a href class="logo">Afrith's Portfolio</a>
+        <nav class="navbar">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <a href="#contact" class="action">Call me</a>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <h2>Hi, I'm Your Afrith</h2>
+            <p>Web Developer | Python Developer | Student </p>
+            <a href="#contact" class="cta-button">Let's Work Together</a>
+        </div>
+    </section>
+
+    <br><br>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-content">
+                <img src="new.jpg" alt="Your Photo" class="about-img">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hi! I’m a Computer Science and Engineering student with a passion for technology, coding, and front-end development. I love creating clean, user-friendly web and mobile apps. One of my recent projects is a quiz app built using Flutter, which taught me a lot about UI design and app functionality. I enjoy learning new tools, solving problems, and constantly improving my skills. My goal is to become a skilled front-end developer and build meaningful digital experiences. This portfolio reflects my journey so far—thank you for visiting, and feel free to check out my projects or reach out!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <img src="crop.jpg" alt="Project 1"><br><br><br>
+                    <h3>Project 1</h3><br><br>
+                    <p>An interactive quiz app.</p><br><br><br>
+                    <a href="project.html" class="project-link">View Project</a>
+                </div >
+                <div class="project-card"><br>
+                    <img src="images.jpeg" alt="Project 2"><br><br><br>
+                    <h3>Project 2</h3><br><br>
+                    <p>Python projects</p><br>
+                    <a href="python projects.html" class="project-link">View Project</a>
+                </div>
+                <div class="project-card"><br>
+                    <img src="#" alt="Project 3"><br><br><br><br>
+                    <h3>Project 3</h3><br><br>
+                    <p>Loading</p><br><br>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">HTML & CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">C</div>
+                <div class="skill-item">Flutter</div>
+                <div class="skill-item">Git & GitHub</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <br><br>
+
+    <div class="social-menu">
+        <ul>
+            <li><a href="https://www.facebook.com/share/16Yx4egcJk/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://x.com/afrith_15?t=Neb0DdSiZg4DcJNts3YPeA&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/afrith__15?igsh=MThicW5rMXF5MHA4YQ==" target="_blank" ><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://github.com/dev-afrith" target="_blank"><i class="fa-brands fa-github" ></i></a></li>
+            <li><a href="https://www.linkedin.com/in/muhammad-afrith-661822327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" ><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Muhammad Afrith | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
